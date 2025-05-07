@@ -1,5 +1,6 @@
-const axios = require('axios');
-const cheerio = require('cheerio');
+
+import axios from 'axios';
+import * as cheerio from 'cheerio';
 
 const targetUrl = 'https://food.ru/search?material=recipe&type_meal_ids=195'; // Замените на нужный URL
 
